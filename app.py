@@ -32,9 +32,9 @@ import imaplib
 import email
 from multiprocessing.spawn import spawn_main
 
-imap_server = "imap.gmx.net"
-email_adress = "hanno1.mueller@gmx.de"
-password = "Geschenkpapier_007"
+imap_server = "enter imap server of mailprovider"
+email_adress = "enter mail adress"
+password = "enter password for mailaccount"
 POSTEINGANG = "TEST"
 
 imap = imaplib.IMAP4_SSL(imap_server)
